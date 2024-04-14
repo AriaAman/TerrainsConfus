@@ -1,0 +1,126 @@
+{
+    "header":{
+        "accueil": "Accueil", 
+        "blog": "Blog"
+    },
+    "footer":{
+        "colonne":{
+            "titreinformations": "Informations",
+            "titrecondition": "Conditions",
+            "titrecompte": "Compte",
+            "foireauquestion": "Foire aux questions",
+            "quisommenous":"Qui sommes-nous ?",
+            "nousrecrutons": "Nous recrutons !",
+            "conditonsgeneral": "Conditions générales",
+            "politiquedeconfidentialite": "Politique de confidentialité",
+            "cookies": "Cookies",
+            "compte": "Compte",
+            "enregistrer": "S'enregistrer",
+            "connecter": "Se connecter",
+            "numéro": "Des questions ? Appelez le 01.70.52.95.79",
+            "rejoignez-nous": "Rejoignez-nous sur les réseaux sociaux !",
+            "decouvrerapplication": "Découvrez nos applications"
+        }
+    },
+    "pageaccueil": {
+        "h3": "Réinventez votre espace extérieur avec nos solutions sur mesure !",
+        "p": "Imaginez et concrétisez l'aménagement de votre terrain en quelques clics. Notre expertise et nos outils avancés vous guident vers une transformation réussie.",
+        "ensavoirplus": "Découvrir les possibilités"
+    },
+    "indices": {
+        "indicateurs": {
+            "titre": "Explorez les potentiels de votre terrain !",
+            "p": "Accédez à des informations clés pour optimiser l'utilisation de votre espace extérieur."
+        },
+        "indicateur1": {
+            "h3": "Potentialités et Valeur du Terrain",
+            "li1": "Quelle est la valeur potentielle de mon terrain ?",
+            "li2": "Quels aménagements récents ont été réalisés dans les environs ?",
+            "li3": "Quel est l'intérêt locatif de ma zone géographique ?"
+        },
+        "indicateur2": {
+            "h3": "Confort et Bien-être",
+            "li1": "Comment l'ensoleillement influence-t-il mon terrain ?",
+            "li2": "Quel est le niveau de calme dans mon quartier ?",
+            "li3": "Quels sont les risques environnementaux liés à mon emplacement ?"
+        },
+        "indicateur3": {
+            "h3": "Estimation Personnalisée",
+            "li1": "Comment estimer au mieux la valeur de mon espace ?",
+            "li2": "Dans quel segment de prix se situe mon bien ?",
+            "li3": "Quels critères influencent l'estimation de ma propriété ?"
+        },
+        "indicateur4": {
+            "h3": "Education et Accessibilité",
+            "li1": "Quelles infrastructures éducatives sont accessibles depuis mon domicile ?",
+            "li2": "Quels sont les établissements privés à proximité ?",
+            "li3": "Quelles sont les options de mobilité disponibles ?"
+        },
+        "indicateur5": {
+            "h3": "Vie Locale et Commodités",
+            "li1": "Où se trouve le commerce de proximité le plus proche ?",
+            "li2": "Existe-t-il des zones commerciales ou de loisirs dans les alentours ?",
+            "li3": "Puis-je profiter d'espaces verts sans utiliser de véhicule ?"
+        },
+        "indicateur6": {
+            "h3": "Connectivité",
+            "li1": "Quelle est la fiabilité de ma connexion internet ?",
+            "li2": "Mon domicile est-il équipé en fibre optique ?",
+            "li3": "Quelle est la performance du réseau mobile autour de ma résidence ?"
+        },
+        "indicateur7": {
+            "h3": "Sécurité et Services",
+            "li1": "Quelle est la proximité des services de sécurité ?",
+            "li2": "Où trouver une pharmacie ou des services de santé ?",
+            "li3": "Quels sont les services de proximité disponibles ?"
+        },
+        "indicateur8": {
+            "h3": "Contexte Socioéconomique",
+            "li1": "Quel est le profil socioéconomique de mon quartier ?",
+            "li2": "Comment se caractérise la population locale ?",
+            "li3": "Quelles sont les perspectives d'emploi dans ma région ?",
+            "li4": "Les entreprises environnantes sont-elles en phase de recrutement ?"
+        }   
+    },
+    "contact": {
+        "h6": "Besoin d'assistance ou d'un conseil expert ?",
+        "h3": "Nous sommes à votre écoute",
+        "demo": "Demandez une démo",
+        "contacte": "Écrivez-nous",
+        "support": "Support client",
+        "nom": "Votre nom",
+        "email": "Votre adresse email",
+        "demande": "Objet de votre demande",
+        "telephone": "Votre numéro de téléphone...",
+        "messagecontact": "Votre message",
+        "envoyercontact": "Envoyer le message"
+    },
+    "404":{
+        "h1":"Ooops !",
+        "h2":"Désolé, l'adresse que vous demandez est introuvable",
+        "p":"Désolé, La page que vous avez demandée n'a pas été trouvée.Essayer de revenir à l'accueil. Il se peut que le lien que vous avez utilisé soit rompu ou que vous ayez tapé l'adresse (URL) incorrectement.",
+        "h3":"Revenir à l'accueil !"
+    },
+    "conditionutilisateur": {
+        "politiquedeconfidentialité": "Politique de confidentialité",
+        "quisommenous": "Qui sommes-nous ?",
+        "quisommenousP": "L'adresse de notre site est : https://rtit-consulting.com.",
+        "commentaires": "Commentaires",
+        "commentairesP": "Quand vous laissez un commentaire sur notre site, les données inscrites dans le formulaire de commentaire, ainsi que votre adresse IP et l'agent utilisateur de votre navigateur sont collectés pour nous aider à la détection des commentaires indésirables.\n            Une chaîne anonymisée créée à partir de votre adresse e-mail (également appelée hash) peut être envoyée au service Gravatar pour vérifier si vous utilisez ce dernier. Les clauses de confidentialité du service Gravatar sont disponibles ici : https://automattic.com/privacy/. Après validation de votre commentaire, votre photo de profil sera visible publiquement à coté de votre commentaire.",
+        "média": "Médias",
+        "médiaP": "Si vous téléversez des images sur le site, nous vous conseillons d'éviter de téléverser des images contenant des données EXIF de coordonnées GPS. Les personnes visitant votre site peuvent télécharger et extraire des données de localisation depuis ces images.",
+        "cookies": "Cookies",
+        "cookiesP": "Si vous déposez un commentaire sur notre site, il vous sera proposé d'enregistrer votre nom, adresse e-mail et site dans des cookies. C'est uniquement pour votre confort afin de ne pas avoir à saisir ces informations si vous déposez un autre commentaire plus tard. Ces cookies expirent au bout d'un an.\n            Si vous vous rendez sur la page de connexion, un cookie temporaire sera créé afin de déterminer si votre navigateur accepte les cookies. Il ne contient pas de données personnelles et sera supprimé automatiquement à la fermeture de votre navigateur.\n            Lorsque vous vous connecterez, nous mettrons en place un certain nombre de cookies pour enregistrer vos informations de connexion et vos préférences d'écran. La durée de vie d'un cookie de connexion est de deux jours, celle d'un cookie d'option d'écran est d'un an. Si vous cochez « Se souvenir de moi », votre cookie de connexion sera conservé pendant deux semaines. Si vous vous déconnectez de votre compte, le cookie de connexion sera effacé.\n            En modifiant ou en publiant une publication, un cookie supplémentaire sera enregistré dans votre navigateur. Ce cookie ne comprend aucune donnée personnelle. Il indique simplement l'ID de la publication que vous venez de modifier. Il expire au bout d'un jour.",
+        "contenueembarqué": "Contenu embarqué depuis d'autres sites",
+        "contenueembarquéP": "Les articles de ce site peuvent inclure des contenus intégrés (par exemple des vidéos, images, articles…). Le contenu intégré depuis d'autres sites se comporte de la même manière que si le visiteur se rendait sur cet autre site.\n            Ces sites web pourraient collecter des données sur vous, utiliser des cookies, embarquer des outils de suivis tiers, suivre vos interactions avec ces contenus embarqués si vous disposez d'un compte connecté sur leur site web.\n",
+        "utilisationettransmission": "Utilisation et transmission de vos données personnelles",
+        "utilisationettransmissionP": "Si vous demandez une réinitialisation de votre mot de passe, votre adresse IP sera incluse dans l'e-mail de réinitialisation.",
+        "duréedestockage": "Durées de stockage de vos données",
+        "duréedestockageP": "Si vous laissez un commentaire, le commentaire et ses métadonnées sont conservés indéfiniment. Cela permet de reconnaître et approuver automatiquement les commentaires suivants au lieu de les laisser dans la file de modération.\n            Pour les comptes qui s'inscrivent sur notre site (le cas échéant), nous stockons également les données personnelles indiquées dans leur profil. Tous les comptes peuvent voir, modifier ou supprimer leurs informations personnelles à tout moment (à l'exception de leur identifiant). Les gestionnaires du site peuvent aussi voir et modifier ces informations.",
+        "droitdonnée": "Les droits que vous avez sur vos données",
+        "droitdonnéeP": "Si vous avez un compte ou si vous avez laissé des commentaires sur le site, vous pouvez demander à recevoir un fichier contenant toutes les données personnelles que nous possédons à votre sujet, incluant celles que vous nous avez fournies. Vous pouvez également demander la suppression des données personnelles vous concernant. Cela ne prend pas en compte les données stockées à des fins administratives, légales ou pour des raisons de sécurité.",
+        "transmissiondonnées": "Transmission de vos données personnelles",
+        "transmissiondonnéesP": "Les commentaires des visiteurs peuvent être vérifiés à l'aide d'un service automatisé de détection des commentaires indésirables."
+    }
+}
+
