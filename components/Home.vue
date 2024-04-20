@@ -3,7 +3,7 @@
     <!--  Import de la partie Headers -->
     <UI-head id="accueil"></UI-head>
     <section class="accueil">
-      <video class="video" src="../components/Video/sikvideo.mp4" muted loop autoplay></video>
+      <video class="video" src="/sikvideo.mp4" muted loop autoplay></video>
       <!--  Affichage du titre et du paragraphe de l'accueil  -->
       <div class="texteaccueil">
         <h2>Terrain Confus</h2>
@@ -302,4 +302,3 @@
   }
 }
 </style>
-
