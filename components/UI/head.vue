@@ -19,7 +19,7 @@ function home() {
 <template>
   <header>
     <div class="navbar" ref="headRef" :class="{ 'fixed': isBlack }">
-      <router-link to="/" class="titre" :class="{ 'noire': isBlack }">Smart Immo Knowledge</router-link>
+      <router-link to="/" class="titre" :class="{ 'noire': isBlack }">TERRAIN CONFUS</router-link>
       <div class="menu">
         <div class="toggles" @click="ToggleNavBar()">
           <p class="menu-header">MENU</p>

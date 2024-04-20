@@ -1,3 +1,30 @@
+<script setup lang="ts">
+useHead({
+  title: 'Aménagement de Terrain sur Mesure | Terrain Confus',
+  meta: [
+    { name: 'description', content: 'Terrain Confus offre des solutions personnalisées pour la transformation et l’aménagement de votre espace extérieur. Découvrez nos services et notre expertise en quelques clics.' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:site_name', content: 'Terrain Confus' },
+    { property: 'og:url', content: 'https://leterrainconfus.fr/' }
+  ],
+  bodyAttrs: {
+    class: 'aménagement-extérieur'
+  },
+  script: [ { innerHTML: 'console.log(\'Bienvenue sur Terrain Confus\')' } ]
+})
+
+useSeoMeta({
+  title: 'Terrain Confus - Aménagez votre extérieur avec créativité et expertise',
+  ogTitle: 'Aménagement de Terrain Sur Mesure | Terrain Confus',
+  description: 'Réalisez l’aménagement de votre terrain avec Terrain Confus. Nous combinons créativité et expertise technique pour transformer votre espace extérieur selon vos souhaits.',
+  ogDescription: 'Spécialiste de l’aménagement de terrain, Terrain Confus vous accompagne dans la conception d’un espace extérieur unique et sur mesure. Commencez votre projet avec nous dès aujourdhui !',
+  ogImage: 'https://leterrainconfus.fr/image-og.png',
+  twitterCard: 'summary_large_image',
+  twitterSite: '@TerrainConfus',
+  twitterCreator: '@VotreCompteTwitter'
+})
+</script>
+
 <template>
   <div>
     <UI-head/>

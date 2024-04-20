@@ -13,13 +13,12 @@ const language = computed({
 
 const setAndRefreshLocale = (newLocale) => {
   setLocale(newLocale);
-  location.reload(); // This will refresh the page
+  location.reload(); 
 };
 
 
 watch(() => locale.value, (newLocale) => {
   console.log('Locale changed to:', newLocale);
-  // You can place logic here if additional actions are needed when the locale changes.
 });
 </script>
 

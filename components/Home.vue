@@ -24,7 +24,7 @@
         </li>
       </ul>
       <!-- Bouton permettant d'aller sur la partie estimer "En savoir plus" -->
-      <router-link :to="{ hash: '#estimation' }">
+      <router-link :to="{ hash: '#indices' }">
         <div class="ensavoirplus bounce">
           <p>{{ $t("pageaccueil.ensavoirplus") }}</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"

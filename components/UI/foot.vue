@@ -49,14 +49,14 @@
             </a>
           </li>
           <li>
-            <a href="https://www.apple.com/fr/store"> <i class="bi bi-apple" style="font-size: 3rem; color: black;"></i></a>
+            <a href="https://www.apple.com/fr/store"> <i class="bi bi-apple " style="font-size: 3rem; color: black;"></i></a>
           </li>
         </ul>
       </div>
     </div>
     <div class="copyright">
       <p class="copyrighttext">©Terrains Confus. Copyright 2024</p>
-      <!--      <p class="h5">{{ $t("footer.colonne.numéro") }}</p>-->
+           <p class="h5">{{ $t("footer.colonne.numéro") }}</p>
     </div>
   </footer>
 </template>
