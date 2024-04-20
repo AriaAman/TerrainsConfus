@@ -1,15 +1,15 @@
 {
-    "header":{
-        "accueil": "Accueil", 
+    "header": {
+        "accueil": "Accueil",
         "blog": "Blog"
     },
-    "footer":{
-        "colonne":{
+    "footer": {
+        "colonne": {
             "titreinformations": "Informations",
             "titrecondition": "Conditions",
             "titrecompte": "Compte",
             "foireauquestion": "Foire aux questions",
-            "quisommenous":"Qui sommes-nous ?",
+            "quisommenous": "Qui sommes-nous ?",
             "nousrecrutons": "Nous recrutons !",
             "conditonsgeneral": "Conditions générales",
             "politiquedeconfidentialite": "Politique de confidentialité",
@@ -80,7 +80,7 @@
             "li2": "Comment se caractérise la population locale ?",
             "li3": "Quelles sont les perspectives d'emploi dans ma région ?",
             "li4": "Les entreprises environnantes sont-elles en phase de recrutement ?"
-        }   
+        }
     },
     "contact": {
         "h6": "Besoin d'assistance ou d'un conseil expert ?",
@@ -95,16 +95,16 @@
         "messagecontact": "Votre message",
         "envoyercontact": "Envoyer le message"
     },
-    "404":{
-        "h1":"Ooops !",
-        "h2":"Désolé, l'adresse que vous demandez est introuvable",
-        "p":"Désolé, La page que vous avez demandée n'a pas été trouvée.Essayer de revenir à l'accueil. Il se peut que le lien que vous avez utilisé soit rompu ou que vous ayez tapé l'adresse (URL) incorrectement.",
-        "h3":"Revenir à l'accueil !"
+    "404": {
+        "h1": "Ooops !",
+        "h2": "Désolé, l'adresse que vous demandez est introuvable",
+        "p": "Désolé, La page que vous avez demandée n'a pas été trouvée.Essayer de revenir à l'accueil. Il se peut que le lien que vous avez utilisé soit rompu ou que vous ayez tapé l'adresse (URL) incorrectement.",
+        "h3": "Revenir à l'accueil !"
     },
     "conditionutilisateur": {
         "politiquedeconfidentialité": "Politique de confidentialité",
         "quisommenous": "Qui sommes-nous ?",
-        "quisommenousP": "L'adresse de notre site est : https://rtit-consulting.com.",
+        "quisommenousP": "L'adresse de notre site est : https://leterrainconfus.fr/.",
         "commentaires": "Commentaires",
         "commentairesP": "Quand vous laissez un commentaire sur notre site, les données inscrites dans le formulaire de commentaire, ainsi que votre adresse IP et l'agent utilisateur de votre navigateur sont collectés pour nous aider à la détection des commentaires indésirables.\n            Une chaîne anonymisée créée à partir de votre adresse e-mail (également appelée hash) peut être envoyée au service Gravatar pour vérifier si vous utilisez ce dernier. Les clauses de confidentialité du service Gravatar sont disponibles ici : https://automattic.com/privacy/. Après validation de votre commentaire, votre photo de profil sera visible publiquement à coté de votre commentaire.",
         "média": "Médias",
@@ -123,4 +123,3 @@
         "transmissiondonnéesP": "Les commentaires des visiteurs peuvent être vérifiés à l'aide d'un service automatisé de détection des commentaires indésirables."
     }
 }
-

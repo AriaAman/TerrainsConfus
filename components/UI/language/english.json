@@ -1,10 +1,10 @@
 {
-    "premierepages":{
+    "premierepages": {
         "titres": "Welcome to",
         "titres2": "SmartImmoKnowledge",
         "questionapp": "Which applications do you want to use ?"
     },
-    "header":{
+    "header": {
         "accueil": "Home",
         "estimation": "Estimate",
         "cartedesprix": "Map",
@@ -13,13 +13,13 @@
         "historiques": " History ",
         "deconnexion": "Sign out"
     },
-    "footer":{
-        "colonne":{
+    "footer": {
+        "colonne": {
             "titreinformations": "More Information",
             "titrecondition": "Conditions",
             "titrecompte": "Account",
             "foireauquestion": "Frequently Asked Questions",
-            "quisommenous":"Who are we?",
+            "quisommenous": "Who are we?",
             "nousrecrutons": "We're hiring!",
             "conditonsgeneral": "General terms and conditions",
             "politiquedeconfidentialite": "Privacy Policy",
@@ -32,94 +32,94 @@
             "decouvrerapplication": "Discover our applications"
         }
     },
-    "pageaccueil":{
-        "h3":"Best online estimation site !",
+    "pageaccueil": {
+        "h3": "Best online estimation site !",
         "p": "Estimate the price of your property in less than 5 minutes! Thanks to our database composed of more than 20 million properties, and our artificial intelligence that will determine the most approximate price of your property.",
         "ensavoirplus": "Read more"
     },
-    "indices":{
-        "indicateurs":{
-                "titre":"Smart Immo Knowledge Indicators ",
-                "p":"The answers to all the questions about a property location !"
-            },
-        "indicateur1":{
-            "h3":"Prices & Real Estate Market",
-            "li1":"What is the average price nearby ?",
-            "li2":"What are the recent real estate sales in the area ?",
-            "li3":"How is the rental demand for this address evolving ?"
+    "indices": {
+        "indicateurs": {
+            "titre": "Smart Immo Knowledge Indicators ",
+            "p": "The answers to all the questions about a property location !"
         },
-        "indicateur2":{
-            "h3":"Quality of life",
-            "li1":"When does the sun rise at this address ?",
-            "li2":"What is the noise level ?",
-            "li3":"Am I exposed to air or electromagnetic pollution ?"
+        "indicateur1": {
+            "h3": "Prices & Real Estate Market",
+            "li1": "What is the average price nearby ?",
+            "li2": "What are the recent real estate sales in the area ?",
+            "li3": "How is the rental demand for this address evolving ?"
         },
-        "indicateur3":{
-            "h3":"Price of your property",
-            "li1":"How much is my property worth ?",
-            "li2":"In what price range ?",
-            "li3":"How to make accurate estimates taking into account all relevant indicators ?"
+        "indicateur2": {
+            "h3": "Quality of life",
+            "li1": "When does the sun rise at this address ?",
+            "li2": "What is the noise level ?",
+            "li3": "Am I exposed to air or electromagnetic pollution ?"
         },
-        "indicateur4":{
-            "h3":"Education & Transportation",
-            "li1":"What schools are near the property ?",
-            "li2":"Are there private schools nearby ?",
-            "li3":"Is the property well served by public transportation ?"
+        "indicateur3": {
+            "h3": "Price of your property",
+            "li1": "How much is my property worth ?",
+            "li2": "In what price range ?",
+            "li3": "How to make accurate estimates taking into account all relevant indicators ?"
         },
-        "indicateur5":{
-            "h3":"Shops, Leisure and Tourism",
-            "li1":"How far is the nearest bakery by foot ?",
-            "li2":"Is there a shopping center nearby ?",
-            "li3":"Is a park within walking distance ?"
+        "indicateur4": {
+            "h3": "Education & Transportation",
+            "li1": "What schools are near the property ?",
+            "li2": "Are there private schools nearby ?",
+            "li3": "Is the property well served by public transportation ?"
         },
-        "indicateur6":{
-            "h3":"Internet access",
-            "li1":"What is the quality of my network ?",
-            "li2":"Does the property use fiber optics ?",
-            "li3":"How good is the 4G/5G coverage at this address ?"
+        "indicateur5": {
+            "h3": "Shops, Leisure and Tourism",
+            "li1": "How far is the nearest bakery by foot ?",
+            "li2": "Is there a shopping center nearby ?",
+            "li3": "Is a park within walking distance ?"
         },
-        "indicateur7":{
-            "h3":"Safety, Health and Practical Services",
-            "li1":"Where is the nearest police station ?",
-            "li2":"Is there a pharmacy nearby ?",
-            "li3":"Are there any doctors in the neighborhood ?"
+        "indicateur6": {
+            "h3": "Internet access",
+            "li1": "What is the quality of my network ?",
+            "li2": "Does the property use fiber optics ?",
+            "li3": "How good is the 4G/5G coverage at this address ?"
         },
-        "indicateur8":{
-            "h3":"Employment & Socio-Cultural Environment",
-            "li1":"Is the neighborhood reasonably wealthy or popular ?",
-            "li2":"What is the general situation of the residents ?",
-            "li3":"Is the job market dynamic ?",
-            "li4":"Are nearby companies hiring ?"
-        }   
+        "indicateur7": {
+            "h3": "Safety, Health and Practical Services",
+            "li1": "Where is the nearest police station ?",
+            "li2": "Is there a pharmacy nearby ?",
+            "li3": "Are there any doctors in the neighborhood ?"
+        },
+        "indicateur8": {
+            "h3": "Employment & Socio-Cultural Environment",
+            "li1": "Is the neighborhood reasonably wealthy or popular ?",
+            "li2": "What is the general situation of the residents ?",
+            "li3": "Is the job market dynamic ?",
+            "li4": "Are nearby companies hiring ?"
+        }
     },
-    "contact":{
-        "h6":"Do you have a question ? Any advice ?",
-        "h3":"Contact us",
-        "demo":"Demo",
-        "contacte":"Contact",
-        "support":"Support",
-        "nom":"Enter your name",
-        "email":"Enter your email",
-        "demande":"Enter the subject of your request",
-        "telephone":"Enter your phone number...",
-        "messagecontact":"Enter your message",
-        "envoyercontact":"Send"
+    "contact": {
+        "h6": "Do you have a question ? Any advice ?",
+        "h3": "Contact us",
+        "demo": "Demo",
+        "contacte": "Contact",
+        "support": "Support",
+        "nom": "Enter your name",
+        "email": "Enter your email",
+        "demande": "Enter the subject of your request",
+        "telephone": "Enter your phone number...",
+        "messagecontact": "Enter your message",
+        "envoyercontact": "Send"
     },
-    "event":{
-        "estimation":"Our Estimation",
-        "indicateur":"Our Indicators",
-        "eventlistbien":"Estimate a property !"
+    "event": {
+        "estimation": "Our Estimation",
+        "indicateur": "Our Indicators",
+        "eventlistbien": "Estimate a property !"
     },
-    "404":{
-        "h1":"Ooops !",
-        "h2":"Sorry, the address you requested cannot be found",
-        "p":"Sorry, the page you requested was not found. The link you used may be broken or you may have typed the address (URL) incorrectly.",
-        "h3":"Return to the homepage!"
+    "404": {
+        "h1": "Ooops !",
+        "h2": "Sorry, the address you requested cannot be found",
+        "p": "Sorry, the page you requested was not found. The link you used may be broken or you may have typed the address (URL) incorrectly.",
+        "h3": "Return to the homepage!"
     },
     "conditionutilisateur": {
         "politiquedeconfidentialité": "Privacy Policy",
         "quisommenous": "Who are we ?",
-        "quisommenousP": "Our website address is: https://rtit-consulting.com.",
+        "quisommenousP": "Our website address is: https://leterrainconfus.fr/.",
         "commentaires": "Comments",
         "commentairesP": "When you leave a comment on our site, the data entered in the comment form, as well as your IP address and browser user agent, is collected to help us detect unwanted comments.\n            An anonymized string created from your email address (also called a hash) may be sent to the Gravatar service to verify your use of the service. The privacy policy of the Gravatar service is available here: https://automattic.com/privacy/. After your comment is validated, your profile picture will be publicly visible next to your comment.",
         "média": "Media",
