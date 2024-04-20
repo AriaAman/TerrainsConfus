@@ -3,21 +3,21 @@
     <div class="colonnes" id="colonnesF">
       <div class="colonne">
         <p class="p">{{$t("footer.colonne.titreinformations")}}</p>
-        <a><router-link to="/faq" id="btnFaq">{{$t("footer.colonne.foireauquestion")}}</router-link></a>
-        <a><router-link to="/faq" id="btnQuisommenous">{{ $t("footer.colonne.quisommenous") }}</router-link></a>
-        <a><router-link to="/#contact" id="btnnousrecrutons">Contactez-nous !</router-link></a>
+        <a><NuxtLink  to="/faq" id="btnFaq">{{$t("footer.colonne.foireauquestion")}}</NuxtLink ></a>
+        <a><NuxtLink  to="/faq" id="btnQuisommenous">{{ $t("footer.colonne.quisommenous") }}</NuxtLink ></a>
+        <a><NuxtLink  to="/#contact" id="btnnousrecrutons">Contactez-nous !</NuxtLink ></a>
       </div>
       <div class="colonne">
         <p class="p">{{$t("footer.colonne.titrecondition")}}</p>
-        <a><router-link to="/condition-utilisateur" id="btnConditions">{{ $t("footer.colonne.conditonsgeneral") }}</router-link></a>
-        <a><router-link to="/condition-utilisateur" id="btnPolitiquedeconfidentialite">{{ $t("footer.colonne.politiquedeconfidentialite") }}</router-link></a>
-        <a><router-link to="/condition-utilisateur" id="btnCookies">{{ $t("footer.colonne.cookies") }}</router-link></a>
+        <a><NuxtLink  to="/condition-utilisateur" id="btnConditions">{{ $t("footer.colonne.conditonsgeneral") }}</NuxtLink ></a>
+        <a><NuxtLink  to="/condition-utilisateur" id="btnPolitiquedeconfidentialite">{{ $t("footer.colonne.politiquedeconfidentialite") }}</NuxtLink ></a>
+        <a><NuxtLink  to="/condition-utilisateur" id="btnCookies">{{ $t("footer.colonne.cookies") }}</NuxtLink ></a>
       </div>
       <div class="colonne">
         <p class="p">{{$t("footer.colonne.titrecompte")}} </p>
-        <a><router-link to="/compte" id="btnCompte">{{ $t("footer.colonne.compte") }}</router-link></a>
-        <a><router-link to="/compte" id="btnEnregistrer">{{ $t("footer.colonne.enregistrer") }}</router-link></a>
-        <a><router-link to="/compte" id="btnConnecter">{{ $t("footer.colonne.connecter") }}</router-link></a>
+        <a><NuxtLink  to="/compte" id="btnCompte">{{ $t("footer.colonne.compte") }}</NuxtLink ></a>
+        <a><NuxtLink  to="/compte" id="btnEnregistrer">{{ $t("footer.colonne.enregistrer") }}</NuxtLink ></a>
+        <a><NuxtLink  to="/compte" id="btnConnecter">{{ $t("footer.colonne.connecter") }}</NuxtLink ></a>
       </div>
     </div>
     <div class="baddufooter">
