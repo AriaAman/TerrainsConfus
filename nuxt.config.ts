@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/i18n", "@nuxtjs/robots"],
+  modules: ["@nuxtjs/i18n", "@nuxtjs/robots", "@nuxtjs/sitemap"],
   i18n: {
     vueI18n: "./UI/language/i18n.js",
     locales: [
