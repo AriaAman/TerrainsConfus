@@ -3,23 +3,20 @@
 const props = defineProps({
   isBlack: {
     type: Boolean,
-    default: false
+    default: false,
   },
-})
+});
 
 // Data
-const isNavBarOpen = ref(false)
-
-// Methods
-function home() {
-  window.location.href = "/"
-}
+const isNavBarOpen = ref(false);
 </script>
 
 <template>
   <header>
-    <div class="navbar" ref="headRef" :class="{ 'fixed': isBlack }">
-      <router-link to="/" class="titre" :class="{ 'noire': isBlack }">TERRAIN CONFUS</router-link>
+    <div class="navbar" ref="headRef" :class="{ fixed: isBlack }">
+      <NuxtLink to="/" class="titre" :class="{ noire: isBlack }"
+        >TERRAIN CONFUS</NuxtLink
+      >
       <div class="menu">
         <div class="toggles" @click="ToggleNavBar()">
           <p class="menu-header">MENU</p>
@@ -28,21 +25,27 @@ function home() {
           </div>
         </div>
         <div class="menuitems">
-          <a @click="home()" id="btnaccueil">{{ $t("header.accueil") }}</a>
-          <router-link to="/carte" id="btncarte">{{ $t("header.blog") }}</router-link>
+          <NuxtLink to="/" id="btnaccueil">{{ $t('header.accueil') }}</NuxtLink>
+          <NuxtLink to="/blog" id="btncarte">{{ $t('header.blog') }}</NuxtLink>
         </div>
         <UI-changelang></UI-changelang>
-
       </div>
     </div>
     <!--HEADER TELEPHONE-->
     <div v-if="isNavBarOpen == true" class="ULhead" data-aos="fade-down-left">
       <div class="svgblack">
-        <i class="bi bi-list" style="font-size: 2.2rem" @click="ToggleNavBar()"></i>
+        <i
+          class="bi bi-list"
+          style="font-size: 2.2rem"
+          @click="ToggleNavBar()"></i>
       </div>
       <ul>
-        <li><a @click="home()" id="btnaccueil">{{ $t("header.accueil") }}</a></li>
-        <li><router-link to="/carte">{{ $t("header.cartedesprix") }}</router-link></li>        
+        <li>
+          <NuxtLink to="/" id="btnaccueil">{{ $t('header.accueil') }}</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/blog" id="btncarte">{{ $t('header.blog') }}</NuxtLink>
+        </li>
       </ul>
       <!-- Import de la partie changement de langue-->
       <UI-changelang></UI-changelang>
@@ -55,7 +58,7 @@ function home() {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btnPro {
@@ -402,4 +405,3 @@ a:hover {
   }
 }
 </style>
-
