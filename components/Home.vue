@@ -7,33 +7,46 @@
       <!--  Affichage du titre et du paragraphe de l'accueil  -->
       <div class="texteaccueil">
         <h2>Terrain Confus</h2>
-        <h3>{{ $t("pageaccueil.h3") }}</h3>
-        <p>{{ $t("pageaccueil.p") }}</p>
+        <h3>{{ $t('pageaccueil.h3') }}</h3>
+        <p>{{ $t('pageaccueil.p') }}</p>
       </div>
       <!--  Affichage des logox sociaux  -->
       <ul class="logosociaux">
         <li>
-          <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="font-size: 2rem; color: black;"></i></a>
+          <a href="https://www.facebook.com/"
+            ><i class="bi bi-facebook" style="font-size: 2rem; color: black"></i
+          ></a>
         </li>
         <li>
-          <a href="https://twitter.com/"><i class="bi bi-twitter" style="font-size: 2rem; color: black;"></i></a>
+          <a href="https://twitter.com/"
+            ><i class="bi bi-twitter" style="font-size: 2rem; color: black"></i
+          ></a>
         </li>
         <li>
-          <a href="https://www.instagram.com/?hl=fr"><i class="bi bi-instagram"
-              style="font-size: 2rem; color: black;"></i></a>
+          <a href="https://www.instagram.com/?hl=fr"
+            ><i
+              class="bi bi-instagram"
+              style="font-size: 2rem; color: black"></i
+          ></a>
         </li>
       </ul>
       <!-- Bouton permettant d'aller sur la partie estimer "En savoir plus" -->
-      <router-link :to="{ hash: '#indices' }">
+      <NuxtLink :to="{ hash: '#indices' }">
         <div class="ensavoirplus bounce">
-          <p>{{ $t("pageaccueil.ensavoirplus") }}</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-            class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
+          <p>{{ $t('pageaccueil.ensavoirplus') }}</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-arrow-down-short"
+            viewBox="0 0 16 16">
+            <path
+              fill-rule="evenodd"
               d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
           </svg>
         </div>
-      </router-link>
+      </NuxtLink>
     </section>
     <!--  Import de la partie explication de nos indicateurs-->
     <accueil-indicateurs></accueil-indicateurs>
@@ -48,7 +61,7 @@
   width: auto;
   height: auto;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*Fléche qui bounce */
@@ -59,7 +72,6 @@
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -221,7 +233,6 @@
 /*  }*/
 /*}*/
 @media only screen and (max-width: 900px) {
-
   /*Début de la partie accueil*/
   .texteaccueil {
     z-index: 1;
