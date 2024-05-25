@@ -9,5 +9,6 @@ onMounted(() => {
 </script>
 
 <template>
+   <UI-head id="accueil" isBlack></UI-head>
   <slot />
 </template>
