@@ -3,21 +3,20 @@
     <div class="colonnes" id="colonnesF">
       <div class="colonne">
         <p class="p">Informations</p>
-        <a><NuxtLink to="/faq" id="btnFaq">Foire aux questions</NuxtLink></a>
-        <a><NuxtLink to="/faq" id="btnQuisommenous">Qui sommes-nous ?</NuxtLink></a>
-        <a><NuxtLink to="/#contact" id="btnnousrecrutons">Contactez-nous !</NuxtLink></a>
+      <NuxtLink to="/faq" id="btnFaq">Foire aux questions</NuxtLink>
+      <NuxtLink to="/faq" id="btnQuisommenous">Qui sommes-nous ?</NuxtLink>
+      <NuxtLink to="/#contact" id="btnnousrecrutons">Contactez-nous !</NuxtLink>
       </div>
       <div class="colonne">
         <p class="p">Conditions</p>
-        <a><NuxtLink to="/condition-utilisateur" id="btnConditions">Conditions générales</NuxtLink></a>
-        <a><NuxtLink to="/condition-utilisateur" id="btnPolitiquedeconfidentialite">Politique de confidentialité</NuxtLink></a>
-        <a><NuxtLink to="/condition-utilisateur" id="btnCookies">Cookies</NuxtLink></a>
+      <NuxtLink to="/condition-utilisateur" id="btnConditions">Conditions générales</NuxtLink>
+      <NuxtLink to="/condition-utilisateur" id="btnPolitiquedeconfidentialite">Politique de confidentialité</NuxtLink>
       </div>
       <div class="colonne">
         <p class="p">Compte</p>
-        <a><NuxtLink to="/compte" id="btnCompte">Compte</NuxtLink></a>
-        <a><NuxtLink to="/compte" id="btnEnregistrer">S'enregistrer</NuxtLink></a>
-        <a><NuxtLink to="/compte" id="btnConnecter">Se connecter</NuxtLink></a>
+      <NuxtLink to="/compte" id="btnCompte">Compte</NuxtLink>
+      <NuxtLink to="/compte" id="btnEnregistrer">S'enregistrer</NuxtLink>
+      <NuxtLink to="/compte" id="btnConnecter">Se connecter</NuxtLink>
       </div>
     </div>
     <div class="baddufooter">
