@@ -39,7 +39,7 @@ definePageMeta({
 
     <aside aria-label="Articles en lien" class="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800">
       <h2 class="mb-8 text-3xl font-bold text-gray-900  dark:text-white">Articles en lien</h2>
-      <div class="px-4 mx-auto max-w-screen-xl flex justify-around">
+      <div class="px-4 mx-auto max-w-screen-xl flex justify-around flex-wrap">
         <ContentList>
           <template class="flex" #default="{ list }">
             <article class="max-w-xs" v-for="article in list" :key="article._path">
