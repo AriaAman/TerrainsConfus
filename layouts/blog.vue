@@ -9,6 +9,5 @@ onMounted(() => {
 </script>
 
 <template>
-  <div style="height: 20px; background-color: red"></div>
   <slot />
 </template>
