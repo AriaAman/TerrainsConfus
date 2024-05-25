@@ -14,9 +14,7 @@ const isNavBarOpen = ref(false);
 <template>
   <header>
     <div class="navbar" ref="headRef" :class="{ fixed: isBlack }">
-      <NuxtLink to="/" class="titre" :class="{ noire: isBlack }"
-        >TERRAIN CONFUS</NuxtLink
-      >
+      <NuxtLink to="/" class="titre" :class="{ noire: isBlack }">TERRAIN CONFUS</NuxtLink>
       <div class="menu">
         <div class="toggles" @click="ToggleNavBar()">
           <p class="menu-header">MENU</p>
@@ -25,33 +23,28 @@ const isNavBarOpen = ref(false);
           </div>
         </div>
         <div class="menuitems">
-          <NuxtLink to="/" id="btnaccueil">{{ $t('header.accueil') }}</NuxtLink>
-          <NuxtLink to="/blog" id="btncarte">{{ $t('header.blog') }}</NuxtLink>
+          <NuxtLink to="/" id="btnaccueil">Accueil</NuxtLink>
+          <NuxtLink to="/blog" id="btncarte">Blog</NuxtLink>
         </div>
-        <UI-changelang></UI-changelang>
       </div>
     </div>
     <!--HEADER TELEPHONE-->
     <div v-if="isNavBarOpen == true" class="ULhead" data-aos="fade-down-left">
       <div class="svgblack">
-        <i
-          class="bi bi-list"
-          style="font-size: 2.2rem"
-          @click="ToggleNavBar()"></i>
+        <i class="bi bi-list" style="font-size: 2.2rem" @click="ToggleNavBar()"></i>
       </div>
       <ul>
         <li>
-          <NuxtLink to="/" id="btnaccueil">{{ $t('header.accueil') }}</NuxtLink>
+          <NuxtLink to="/" id="btnaccueil">Accueil</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/blog" id="btncarte">{{ $t('header.blog') }}</NuxtLink>
+          <NuxtLink to="/blog" id="btncarte">Blog</NuxtLink>
         </li>
       </ul>
-      <!-- Import de la partie changement de langue-->
-      <UI-changelang></UI-changelang>
     </div>
   </header>
 </template>
+
 
 <style scoped>
 * {

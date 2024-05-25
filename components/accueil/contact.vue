@@ -3,39 +3,40 @@
     <div class="container">
       <!-- Titre -->
       <div class="title">
-        <p class="h6">{{$t("contact.h6")}}</p>
-        <p class="h3">{{$t("contact.h3")}}</p>
+        <p class="h6">Besoin d'assistance ou d'un conseil expert ?</p>
+        <p class="h3">Nous sommes à votre écoute</p>
       </div>
       <!-- Formulaire de contact -->
       <form action="#" method="post">
         <!-- Options de contact -->
         <div class="selectcontact" >
           <label class="selectcontact" for="contact">
-            <input type="radio" id="demo" value="demo" class="test" v-model="contact"><p>{{$t("contact.demo")}}</p>
+            <input type="radio" id="demo" value="demo" class="test" v-model="contact"><p>Demandez une démo</p>
           </label>
           <label class="selectcontact" for="contact">
-            <input type="radio" id="contacte" value="contact" class="test" v-model="contact"><p>{{$t("contact.contacte")}}</p>
+            <input type="radio" id="contacte" value="contact" class="test" v-model="contact"><p>Écrivez-nous</p>
           </label>
           <label class="selectcontact" for="contact">
-            <input type="radio" id="support" value="support" class="test" v-model="contact"><p>{{$t("contact.support")}}</p>
+            <input type="radio" id="support" value="support" class="test" v-model="contact"><p>Support client</p>
           </label>
         </div>
         <!-- Input nom -->
-        <input id="contactNom" class="input" type="text" name="name" v-bind:placeholder="$t('contact.nom')" required/>
+        <input id="contactNom" class="input" type="text" name="name" placeholder="Votre nom" required/>
         <!-- Input email -->
-        <input id="contactEmail" class="input" type="email" name="email" v-bind:placeholder="$t('contact.email')" required/>
+        <input id="contactEmail" class="input" type="email" name="email" placeholder="Votre adresse email" required/>
         <!-- Input objet -->
-        <input id="contactDemande" class="input" type="text" name="subject" v-bind:placeholder="$t('contact.demande')" required/>
+        <input id="contactDemande" class="input" type="text" name="subject" placeholder="Objet de votre demande" required/>
         <!-- Input numéro de téléphone -->
-        <input id="contactNumTelephone" class="input" type="text" name="number" v-bind:placeholder="$t('contact.telephone')" required/>
+        <input id="contactNumTelephone" class="input" type="text" name="number" placeholder="Votre numéro de téléphone..." required/>
         <!-- Input message -->
-        <textarea name="message" v-bind:placeholder="$t('contact.messagecontact')" id="contactMessage"></textarea>
+        <textarea name="message" placeholder="Votre message" id="contactMessage"></textarea>
         <!-- Bouton envoyer -->
-        <button type="submit">{{$t("contact.envoyercontact")}}</button>
+        <button type="submit">Envoyer le message</button>
       </form>
     </div>
   </section>
 </template>
+
 <style scoped>
 p{
   margin-bottom: 0px;

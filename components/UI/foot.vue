@@ -2,44 +2,52 @@
   <footer>
     <div class="colonnes" id="colonnesF">
       <div class="colonne">
-        <p class="p">{{$t("footer.colonne.titreinformations")}}</p>
-        <a><NuxtLink  to="/faq" id="btnFaq">{{$t("footer.colonne.foireauquestion")}}</NuxtLink ></a>
-        <a><NuxtLink  to="/faq" id="btnQuisommenous">{{ $t("footer.colonne.quisommenous") }}</NuxtLink ></a>
-        <a><NuxtLink  to="/#contact" id="btnnousrecrutons">Contactez-nous !</NuxtLink ></a>
+        <p class="p">Informations</p>
+        <a><NuxtLink to="/faq" id="btnFaq">Foire aux questions</NuxtLink></a>
+        <a><NuxtLink to="/faq" id="btnQuisommenous">Qui sommes-nous ?</NuxtLink></a>
+        <a><NuxtLink to="/#contact" id="btnnousrecrutons">Contactez-nous !</NuxtLink></a>
       </div>
       <div class="colonne">
-        <p class="p">{{$t("footer.colonne.titrecondition")}}</p>
-        <a><NuxtLink  to="/condition-utilisateur" id="btnConditions">{{ $t("footer.colonne.conditonsgeneral") }}</NuxtLink ></a>
-        <a><NuxtLink  to="/condition-utilisateur" id="btnPolitiquedeconfidentialite">{{ $t("footer.colonne.politiquedeconfidentialite") }}</NuxtLink ></a>
-        <a><NuxtLink  to="/condition-utilisateur" id="btnCookies">{{ $t("footer.colonne.cookies") }}</NuxtLink ></a>
+        <p class="p">Conditions</p>
+        <a><NuxtLink to="/condition-utilisateur" id="btnConditions">Conditions générales</NuxtLink></a>
+        <a><NuxtLink to="/condition-utilisateur" id="btnPolitiquedeconfidentialite">Politique de confidentialité</NuxtLink></a>
+        <a><NuxtLink to="/condition-utilisateur" id="btnCookies">Cookies</NuxtLink></a>
       </div>
       <div class="colonne">
-        <p class="p">{{$t("footer.colonne.titrecompte")}} </p>
-        <a><NuxtLink  to="/compte" id="btnCompte">{{ $t("footer.colonne.compte") }}</NuxtLink ></a>
-        <a><NuxtLink  to="/compte" id="btnEnregistrer">{{ $t("footer.colonne.enregistrer") }}</NuxtLink ></a>
-        <a><NuxtLink  to="/compte" id="btnConnecter">{{ $t("footer.colonne.connecter") }}</NuxtLink ></a>
+        <p class="p">Compte</p>
+        <a><NuxtLink to="/compte" id="btnCompte">Compte</NuxtLink></a>
+        <a><NuxtLink to="/compte" id="btnEnregistrer">S'enregistrer</NuxtLink></a>
+        <a><NuxtLink to="/compte" id="btnConnecter">Se connecter</NuxtLink></a>
       </div>
     </div>
     <div class="baddufooter">
       <div class="social">
-        <p>{{ $t("footer.colonne.rejoignez-nous") }}</p>
-          <ul class="logosociaux">
-            <li>
-              <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="font-size: 3rem; color: black;"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/"><i class="bi bi-twitter" style="font-size: 3rem; color: black;"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/?hl=fr"><i class="bi bi-instagram" style="font-size: 3rem; color: black;"></i></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/"><i class="bi bi-linkedin" style="font-size: 3rem; color: black;"></i></a>
-            </li>
-          </ul>
+        <p>Rejoignez-nous sur les réseaux sociaux !</p>
+        <ul class="logosociaux">
+          <li>
+            <a href="https://www.facebook.com/">
+              <i class="bi bi-facebook" style="font-size: 3rem; color: black;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">
+              <i class="bi bi-twitter" style="font-size: 3rem; color: black;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/?hl=fr">
+              <i class="bi bi-instagram" style="font-size: 3rem; color: black;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/">
+              <i class="bi bi-linkedin" style="font-size: 3rem; color: black;"></i>
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="applications">
-        <p>{{ $t("footer.colonne.decouvrerapplication") }}</p>
+        <p>Découvrez nos applications</p>
         <ul class="logoapplications">
           <li>
             <a href="https://play.google.com/store/apps">
@@ -49,17 +57,20 @@
             </a>
           </li>
           <li>
-            <a href="https://www.apple.com/fr/store"> <i class="bi bi-apple " style="font-size: 3rem; color: black;"></i></a>
+            <a href="https://www.apple.com/fr/store">
+              <i class="bi bi-apple" style="font-size: 3rem; color: black;"></i>
+            </a>
           </li>
         </ul>
       </div>
     </div>
     <div class="copyright">
       <p class="copyrighttext">©Terrains Confus. Copyright 2024</p>
-           <p class="h5">{{ $t("footer.colonne.numéro") }}</p>
+      <p class="h5">Des questions ? Appelez le 01.70.52.95.79</p>
     </div>
   </footer>
 </template>
+
 <style scoped>
 * {
   margin: 0;
@@ -106,10 +117,10 @@ footer .colonnes {
   text-decoration: underline;
 }
 .copyright {
-  width: 50%;
+  width: 100%;
   margin-top: 2%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 .baddufooter{

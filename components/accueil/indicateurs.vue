@@ -1,10 +1,10 @@
 <template>
-<div id="indices">
+  <div id="indices">
     <div class="indicateur" data-aos="fade-right">
-      <h3>{{ $t("indices.indicateurs.titre") }}</h3>
-    <div class="indicateurp">
-      <p>{{ $t("indices.indicateurs.p") }}</p>
-    </div> 
+      <h3>Explorez les potentiels de votre terrain confus !</h3>
+      <div class="indicateurp">
+        <p>Accédez à des informations clés pour optimiser l'utilisation de votre terrain confus.</p>
+      </div> 
     </div> 
     <div class="containers" data-aos="fade-right">
       <div class="blocs">
@@ -18,12 +18,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur1.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur1.li1") }}</li>
-              <li>{{ $t("indices.indicateur1.li2") }}</li>
-              <li>{{ $t("indices.indicateur1.li3") }}</li>
-            </ul>
+            <h3>Potentialités et Valeur du Terrain</h3>
+            <p>Découvrez les potentialités et la valeur de votre terrain confus. Quelle est la valeur potentielle de mon terrain ? Quels aménagements récents ont été réalisés dans les environs ? Quel est l'intérêt locatif de ma zone géographique ? Toutes ces questions trouvent leurs réponses pour optimiser votre terrain confus.</p>
           </div>
         </div>
       </div>
@@ -37,12 +33,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur2.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur1.li1") }}</li>
-              <li>{{ $t("indices.indicateur2.li1") }}</li>
-              <li>{{ $t("indices.indicateur3.li1") }}</li>
-            </ul>
+            <h3>Confort et Bien-être</h3>
+            <p>Évaluez le confort et le bien-être de votre terrain confus. Comment l'ensoleillement influence-t-il mon terrain ? Quel est le niveau de calme dans mon quartier ? Quels sont les risques environnementaux liés à mon emplacement ? Optimisez votre terrain confus pour un cadre de vie agréable.</p>
           </div>
         </div>
       </div>
@@ -56,12 +48,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur3.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur1.li1") }}</li>
-              <li>{{ $t("indices.indicateur2.li1") }}</li>
-              <li>{{ $t("indices.indicateur3.li1") }}</li>
-            </ul>
+            <h3>Estimation Personnalisée</h3>
+            <p>Obtenez une estimation personnalisée de votre terrain confus. Comment estimer au mieux la valeur de mon espace ? Dans quel segment de prix se situe mon bien ? Quels critères influencent l'estimation de ma propriété ? Maximisez la valeur de votre terrain confus avec une estimation précise.</p>
           </div>
         </div>
       </div>
@@ -74,12 +62,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur4.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur4.li1") }}</li>
-              <li>{{ $t("indices.indicateur4.li2") }}</li>
-              <li>{{ $t("indices.indicateur4.li3") }}</li>
-            </ul>
+            <h3>Éducation et Accessibilité</h3>
+            <p>Évaluez l'éducation et l'accessibilité de votre terrain confus. Quelles infrastructures éducatives sont accessibles depuis mon domicile ? Quels sont les établissements privés à proximité ? Quelles sont les options de mobilité disponibles ? Faites de votre terrain confus un espace pratique et éducatif.</p>
           </div>
         </div>
       </div>
@@ -93,12 +77,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur5.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur5.li1") }}</li>
-              <li>{{ $t("indices.indicateur5.li2") }}</li>
-              <li>{{ $t("indices.indicateur5.li3") }}</li>
-            </ul>
+            <h3>Vie Locale et Commodités</h3>
+            <p>Améliorez la vie locale et les commodités de votre terrain confus. Où se trouve le commerce de proximité le plus proche ? Existe-t-il des zones commerciales ou de loisirs dans les alentours ? Puis-je profiter d'espaces verts sans utiliser de véhicule ? Transformez votre terrain confus en un espace pratique et agréable.</p>
           </div>
         </div>
       </div>
@@ -112,12 +92,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur6.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur6.li1") }}</li>
-              <li>{{ $t("indices.indicateur6.li2") }}</li>
-              <li>{{ $t("indices.indicateur6.li3") }}</li>
-            </ul>
+            <h3>Connectivité</h3>
+            <p>Améliorez la connectivité de votre terrain confus. Quelle est la fiabilité de ma connexion internet ? Mon domicile est-il équipé en fibre optique ? Quelle est la performance du réseau mobile autour de ma résidence ? Assurez-vous que votre terrain confus dispose de toutes les connexions nécessaires.</p>
           </div>
         </div>
       </div>
@@ -131,12 +107,8 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur7.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur7.li1") }}</li>
-              <li>{{ $t("indices.indicateur7.li2") }}</li>
-              <li>{{ $t("indices.indicateur7.li3") }}</li>
-            </ul>
+            <h3>Sécurité et Services</h3>
+            <p>Améliorez la sécurité et les services de votre terrain confus. Quelle est la proximité des services de sécurité ? Où trouver une pharmacie ou des services de santé ? Quels sont les services de proximité disponibles ? Faites de votre terrain confus un espace sûr et bien desservi.</p>
           </div>
         </div>
       </div>
@@ -150,19 +122,16 @@
             </span>
           </div>
           <div>
-            <h3>{{ $t("indices.indicateur8.h3") }}</h3>
-            <ul class="ul">
-              <li>{{ $t("indices.indicateur8.li1") }}</li>
-              <li>{{ $t("indices.indicateur8.li2") }}</li>
-              <li>{{ $t("indices.indicateur8.li3") }}</li>
-              <li>{{ $t("indices.indicateur8.li4") }}</li>
-            </ul>
+            <h3>Contexte Socioéconomique</h3>
+            <p>Évaluez le contexte socioéconomique de votre terrain confus. Quel est le profil socioéconomique de mon quartier ? Comment se caractérise la population locale ? Quelles sont les perspectives d'emploi dans ma région ? Les entreprises environnantes sont-elles en phase de recrutement ? Comprenez mieux votre terrain confus et son environnement.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+
 <style scoped>
 .ul{
   padding-left:  0px;

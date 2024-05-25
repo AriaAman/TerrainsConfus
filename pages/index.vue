@@ -34,40 +34,37 @@ useSeoMeta({
 
 <template>
   <div>
-    <!--  Import de la partie Headers -->
-    <UI-head id="accueil"></UI-head>
+<!--  Import de la partie Headers -->
     <section class="accueil">
-      <video class="video" src="/sikvideo.mp4" muted loop autoplay></video>
+      <video class="video1" src="/sikvideo.mp4" muted loop autoplay></video>
       <!--  Affichage du titre et du paragraphe de l'accueil  -->
       <div class="texteaccueil">
         <h2>Terrain Confus</h2>
-        <h3>{{ $t('pageaccueil.h3') }}</h3>
-        <p>{{ $t('pageaccueil.p') }}</p>
+        <h3>Réinventez votre espace extérieur avec les solutions sur mesure de Terrain Confus !</h3>
+        <p>Imaginez et concrétisez l'aménagement de votre terrain confus en quelques clics. Notre expertise et nos outils avancés vous guident vers une transformation réussie de votre terrain confus.</p>
       </div>
       <!--  Affichage des logox sociaux  -->
       <ul class="logosociaux">
         <li>
-          <NuxtLink href="https://www.facebook.com/"
-            ><i class="bi bi-facebook" style="font-size: 2rem; color: black"></i
-          ></NuxtLink>
+          <a href="https://www.facebook.com/">
+            <i class="bi bi-facebook" style="font-size: 2rem; color: black"></i>
+          </a>
         </li>
         <li>
-          <NuxtLink href="https://twitter.com/"
-            ><i class="bi bi-twitter" style="font-size: 2rem; color: black"></i
-          ></NuxtLink>
+          <a href="https://twitter.com/">
+            <i class="bi bi-twitter" style="font-size: 2rem; color: black"></i>
+          </a>
         </li>
         <li>
-          <NuxtLink href="https://www.instagram.com/?hl=fr"
-            ><i
-              class="bi bi-instagram"
-              style="font-size: 2rem; color: black"></i
-          ></NuxtLink>
+          <a href="https://www.instagram.com/?hl=fr">
+            <i class="bi bi-instagram" style="font-size: 2rem; color: black"></i>
+          </a>
         </li>
       </ul>
       <!-- Bouton permettant d'aller sur la partie estimer "En savoir plus" -->
       <NuxtLink :to="{ hash: '#indices' }">
         <div class="ensavoirplus bounce">
-          <p>{{ $t('pageaccueil.ensavoirplus') }}</p>
+          <p>Découvrir les possibilités</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -97,6 +94,11 @@ useSeoMeta({
   height: auto;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+
+video {
+    max-width: inherit;
+    height: auto;
 }
 
 /*Fléche qui bounce */
@@ -159,11 +161,11 @@ useSeoMeta({
   z-index: 3;
 }
 
-.video {
+.video1 {
   position: absolute;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  min-width: 100% !important;
   min-height: 100%;
   z-index: 0;
 }

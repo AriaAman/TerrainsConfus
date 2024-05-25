@@ -1,5 +1,7 @@
 <template>
+  <UI-head id="accueil"></UI-head>
   <slot />
+  <UI-foot></UI-foot>
 </template>
 
 <style>
