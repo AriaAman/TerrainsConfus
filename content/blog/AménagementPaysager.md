@@ -4,6 +4,12 @@ description: "Guide complet pour l'aménagement paysager des terrains confus."
 author: Aria AMAN
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/amenagementpaysager
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 L'aménagement paysager peut transformer un terrain confus en un espace beau et fonctionnel. Ce guide propose des conseils et astuces pour optimiser l'aménagement paysager de votre terrain confus.

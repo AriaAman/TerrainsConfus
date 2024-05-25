@@ -4,6 +4,12 @@ description: "Découvrez quelles fleurs sont les mieux adaptées pour embellir u
 author: Aria AMAN
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/fleursaplanter
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Embellir un terrain confus avec des fleurs peut non seulement améliorer son apparence, mais aussi augmenter sa valeur. Cet article explore les meilleures fleurs à planter pour transformer votre terrain confus en un espace vibrant et accueillant.

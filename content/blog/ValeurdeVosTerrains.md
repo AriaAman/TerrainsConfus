@@ -4,6 +4,12 @@ description: "Découvrez comment optimiser l'utilisation de vos terrains pour en
 author: Moustapha CHEGDALI
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/valeurdevosterrains
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Posséder un terrain peut être une opportunité d'investissement précieuse. Que vous envisagiez de construire, de vendre ou simplement de conserver la propriété, il est essentiel de comprendre comment maximiser la valeur de votre terrain.

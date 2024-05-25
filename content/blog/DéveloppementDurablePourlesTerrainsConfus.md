@@ -4,6 +4,12 @@ description: "Découvrez des stratégies pour développer durablement les terrai
 author: Aria AMAN
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/developpementdurablepourlesterrainsconfus
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Le développement durable est essentiel pour la gestion à long terme des terrains confus. Cet article propose des stratégies pratiques pour développer ces terrains de manière durable et responsable.

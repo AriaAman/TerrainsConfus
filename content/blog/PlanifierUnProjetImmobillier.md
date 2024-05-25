@@ -4,6 +4,12 @@ description: "Guide pour planifier efficacement un projet immobilier sur un terr
 author: Moustapha CHEGDALI
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/planifierunprojetimmobillier
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Planifier un projet immobilier sur un terrain confus peut être complexe, mais avec une bonne préparation, vous pouvez surmonter les défis et réussir votre développement. Ce guide vous aide à planifier votre projet immobilier de manière efficace.

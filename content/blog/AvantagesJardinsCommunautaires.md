@@ -4,6 +4,12 @@ description: "Découvrez comment transformer un terrain confus en jardin communa
 author: Aria AMAN
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/avantagesjardinscommunautaires
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Les jardins communautaires peuvent transformer un terrain confus en un espace utile et bénéfique pour toute la communauté. Cet article explore les avantages de créer un jardin communautaire sur un terrain confus.

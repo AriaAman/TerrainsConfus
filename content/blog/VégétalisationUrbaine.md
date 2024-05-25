@@ -4,6 +4,12 @@ description: "Découvrez comment la végétalisation urbaine peut transformer le
 author: Aria AMAN
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/vegetalisationurbaine
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 La végétalisation urbaine est une solution innovante pour transformer les terrains confus en espaces verts dynamiques. Cet article explore les nombreux avantages de la végétalisation urbaine pour les terrains confus.

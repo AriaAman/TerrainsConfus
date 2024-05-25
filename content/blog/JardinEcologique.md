@@ -4,6 +4,12 @@ description: "Guide pour transformer un terrain confus en un espace écologique 
 author: Moustapha CHEGDALI
 role: CEO
 date: 2024-05-25
+
+sitemap:
+  loc: /blog/jardinecologique
+  lastmod: 2024-05-25
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Transformer un terrain confus en un jardin écologique peut apporter de nombreux avantages, tant pour l'environnement que pour la valeur de votre propriété. Ce guide vous explique comment procéder étape par étape.

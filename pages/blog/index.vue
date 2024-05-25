@@ -28,10 +28,10 @@ definePageMeta({
               </div>
               <div class="group relative">
                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                  <a href="#">
+                  <NuxtLink :to="article._path">
                     <span class="absolute inset-0"></span>
                     {{ article.title }}
-                  </a>
+                  </NuxtLink>
                 </h3>
                 <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ article.description }}</p>
               </div>
@@ -41,10 +41,10 @@ definePageMeta({
                   alt="" class="h-10 w-10 rounded-full bg-gray-50">
                 <div class="text-sm leading-6">
                   <p class="font-semibold text-gray-900">
-                    <a href="#">
+                    <NuxtLink :to="article._path">
                       <span class="absolute inset-0"></span>
                       {{ article.author }}
-                    </a>
+                    </NuxtLink>
                   </p>
                   <p class="text-gray-600">{{ article.role }}</p>
                 </div>
