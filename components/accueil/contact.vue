@@ -9,27 +9,65 @@
       <!-- Formulaire de contact -->
       <form action="#" method="post">
         <!-- Options de contact -->
-        <div class="selectcontact" >
+        <div class="selectcontact">
           <label class="selectcontact" for="contact">
-            <input type="radio" id="demo" value="demo" class="test" v-model="contact"><p>Demandez une démo</p>
+            <input type="radio" id="demo" value="demo" v-model="contact" />
+            <p>Demandez une démo</p>
           </label>
           <label class="selectcontact" for="contact">
-            <input type="radio" id="contacte" value="contact" class="test" v-model="contact"><p>Écrivez-nous</p>
+            <input
+              type="radio"
+              id="contacte"
+              value="contact"
+              v-model="contact" />
+            <p>Écrivez-nous</p>
           </label>
           <label class="selectcontact" for="contact">
-            <input type="radio" id="support" value="support" class="test" v-model="contact"><p>Support client</p>
+            <input
+              type="radio"
+              id="support"
+              value="support"
+              v-model="contact" />
+            <p>Support client</p>
           </label>
         </div>
         <!-- Input nom -->
-        <input id="contactNom" class="input" type="text" name="name" placeholder="Votre nom" required/>
+        <input
+          id="contactNom"
+          class="input"
+          type="text"
+          name="name"
+          placeholder="Votre nom"
+          required />
         <!-- Input email -->
-        <input id="contactEmail" class="input" type="email" name="email" placeholder="Votre adresse email" required/>
+        <input
+          id="contactEmail"
+          class="input"
+          type="email"
+          name="email"
+          placeholder="Votre adresse email"
+          required />
         <!-- Input objet -->
-        <input id="contactDemande" class="input" type="text" name="subject" placeholder="Objet de votre demande" required/>
+        <input
+          id="contactDemande"
+          class="input"
+          type="text"
+          name="subject"
+          placeholder="Objet de votre demande"
+          required />
         <!-- Input numéro de téléphone -->
-        <input id="contactNumTelephone" class="input" type="text" name="number" placeholder="Votre numéro de téléphone..." required/>
+        <input
+          id="contactNumTelephone"
+          class="input"
+          type="text"
+          name="number"
+          placeholder="Votre numéro de téléphone..."
+          required />
         <!-- Input message -->
-        <textarea name="message" placeholder="Votre message" id="contactMessage"></textarea>
+        <textarea
+          name="message"
+          placeholder="Votre message"
+          id="contactMessage"></textarea>
         <!-- Bouton envoyer -->
         <button type="submit">Envoyer le message</button>
       </form>
@@ -38,10 +76,10 @@
 </template>
 
 <style scoped>
-p{
+p {
   margin-bottom: 0px;
 }
-.selectcontact{
+.selectcontact {
   width: 100%;
   display: flex;
   align-items: center;
@@ -49,11 +87,7 @@ p{
   flex-direction: row;
   margin-bottom: 12px;
 }
-input.test{
-  width: 16px;
-  height: 30px;
 
-}
 select {
   font-size: 1rem;
   padding: 10px 5px;
@@ -132,7 +166,7 @@ section#contact .container form button {
   margin: 0 auto;
 }
 @media only screen and (max-width: 900px) {
-  p{
+  p {
     margin-bottom: 0px;
   }
 }
@@ -145,7 +179,8 @@ section#contact .container form button {
     font-size: 0.8em;
   }
 
-  section#contact .container form .input, section#contact .container form textarea {
+  section#contact .container form .input,
+  section#contact .container form textarea {
     font-size: 13px;
   }
   p {
@@ -155,20 +190,17 @@ section#contact .container form button {
 </style>
 
 <script>
-
-import {ref} from "vue";
+import { ref } from 'vue';
 
 export default {
-  name: "contact",
-  components:{
-
-  },
-  setup(){
+  name: 'contact',
+  components: {},
+  setup() {
     const contact = ref([]);
 
-    return{
-      contact
-    }
+    return {
+      contact,
+    };
   },
 };
 </script>

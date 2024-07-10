@@ -34,14 +34,23 @@ useSeoMeta({
 
 <template>
   <div>
-<!--  Import de la partie Headers -->
+    <!--  Import de la partie Headers -->
     <section class="accueil">
-      <video class="video1" src="/sikvideo.mp4" muted loop autoplay></video>
+      <video class="video1" src="/sikvideo.mp4" muted loop autoplay>
+        <track kind="captions" src="" />
+      </video>
       <!--  Affichage du titre et du paragraphe de l'accueil  -->
       <div class="texteaccueil">
-        <h2>Terrain Confus</h2>
-        <h3>Réinventez votre espace extérieur avec les solutions sur mesure de Terrain Confus !</h3>
-        <p>Imaginez et concrétisez l'aménagement de votre terrain confus en quelques clics. Notre expertise et nos outils avancés vous guident vers une transformation réussie de votre terrain confus.</p>
+        <h1>Terrain Confus</h1>
+        <h2>
+          Réinventez votre espace extérieur avec les solutions sur mesure de
+          Terrain Confus !
+        </h2>
+        <p>
+          Imaginez et concrétisez l'aménagement de votre terrain confus en
+          quelques clics. Notre expertise et nos outils avancés vous guident
+          vers une transformation réussie de votre terrain confus.
+        </p>
       </div>
       <!--  Affichage des logox sociaux  -->
       <ul class="logosociaux">
@@ -57,7 +66,9 @@ useSeoMeta({
         </li>
         <li>
           <a href="https://www.instagram.com/?hl=fr">
-            <i class="bi bi-instagram" style="font-size: 2rem; color: black"></i>
+            <i
+              class="bi bi-instagram"
+              style="font-size: 2rem; color: black"></i>
           </a>
         </li>
       </ul>
@@ -97,8 +108,8 @@ useSeoMeta({
 }
 
 video {
-    max-width: inherit;
-    height: auto;
+  max-width: inherit;
+  height: auto;
 }
 
 /*Fléche qui bounce */
@@ -175,14 +186,14 @@ video {
   z-index: 1;
 }
 
-.texteaccueil h2 {
+.texteaccueil h1 {
   font-size: 3em;
   font-weight: 800;
   line-height: 1em;
   text-transform: uppercase;
 }
 
-.texteaccueil h3 {
+.texteaccueil h2 {
   font-size: 1.8em;
   font-weight: 700;
   line-height: 1em;
